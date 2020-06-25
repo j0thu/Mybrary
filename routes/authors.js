@@ -20,7 +20,7 @@ router.get('/', async(req, res)=> {
 })
 
 //New Author Route
-router.get('/new', (req, res)=> {
+router.get('/new', (req, res)=> { 
     res.render('authors/new', {author: new Author()});  // For using the author model in the ejs file
 })
 
