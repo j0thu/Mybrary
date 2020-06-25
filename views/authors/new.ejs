@@ -1,0 +1,11 @@
+<h2>New Author</h2>
+<form action="/authors" method = "POST">
+<%- include('_form_fields.ejs') %> <!--Form for new author-->
+
+<a href="/authors">Cancel</a>
+<button type = "submit">Create</button>
+<!-- type = "submit, therefore the the page will know that this is the place 
+where the form is being submitted and is being redirected to the create post route-->
+
+
+</form>
